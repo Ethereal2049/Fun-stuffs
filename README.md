@@ -1,2 +1,2 @@
 # sperner's game
-a little progject for my research
+a little project for my research
