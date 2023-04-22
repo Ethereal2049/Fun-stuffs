@@ -22,7 +22,7 @@ font_final = pygame.font.SysFont('Arial',final_font_size,True)
 letter_A_image = pygame.transform.scale(pygame.image.load('a.png'),(80,60))
 letter_B_image = pygame.transform.scale(pygame.image.load('b.png'),(80,60))
 
-# Lists, for the logic determiation
+# Lists, for the logic determination
 chart = [0,0,0,0,0,0]
 spot = [1,2,3,4,5,6]
 
