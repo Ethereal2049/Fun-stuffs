@@ -1,2 +1,2 @@
-# Fun-stuffs
-Some tiny projects
+# sperner's game
+a little progject for my research
