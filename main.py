@@ -1,5 +1,5 @@
 
-#Rule of the game: if there are odd numbers of collisions then B wins, if there are even number of collisions A wins
+#Rule of the game: if there are odd numbers of collisions then A wins, if there are even number of collisions B wins
 
 
 import pygame
@@ -192,15 +192,15 @@ def collision_fun():
             collision += 1
     if chart and chart[0] != chart[-1]:
         if collision == 1:
-            text_collision = font_final.render(f"{collision} collision, B won!",True,(0,0,0))
+            text_collision = font_final.render(f"{collision} collision, A won!",True,(0,0,0))
             window.blit(text_collision, (470, 80))
             pygame.display.update()
         else:
-            text_collision = font_final.render(f"{collision} collisions, B won!",True,(0,0,0))
+            text_collision = font_final.render(f"{collision} collisions, A won!",True,(0,0,0))
             window.blit(text_collision, (470, 80))
             pygame.display.update()
     elif chart and chart[0] == chart[-1]:
-        text_collision = font_final.render(f"{collision} collisions, A won!",True,(0,0,0))
+        text_collision = font_final.render(f"{collision} collisions, B won!",True,(0,0,0))
         window.blit(text_collision, (470, 80))
         pygame.display.update()
         
